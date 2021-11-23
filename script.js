@@ -74,7 +74,7 @@ getPhotos();
 
 // check to see if scrolling near page bottom, Load more photo
 window.addEventListener('scroll', function(e){
-    if(window.innerHeight+window.scrollY >= document.body.offsetHeight - 1000 && ready){
+    if(window.innerHeight+window.scrollY >= document.body.offsetHeight - 1300 && ready){
         ready = false;
         getPhotos();
     }
